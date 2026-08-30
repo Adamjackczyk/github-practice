@@ -1,3 +1,32 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
+  }
+  
+  header {
+    padding: 30px;
+    border-bottom: 4px solid #7534d1;
+    margin-bottom: 25px;
+    color: white;
+    background-color: #9e57d1;
+    text-align: center;
+  }
+  
+  main {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  section {
+    padding: 20px;
+    border: 2px solid grey;
+    margin-bottom: 25px;
+    background-color: white;
+  }
