@@ -35,3 +35,35 @@ body {
     border-radius: 8px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
   }
+
+  form {
+    max-width: 500px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    background-color: #9e57d1;
+    cursor: pointer;
+  }
