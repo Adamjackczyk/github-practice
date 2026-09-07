@@ -17,6 +17,18 @@ body {
     background-color: #9e57d1;
     text-align: center;
   }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    color: white;
+  }
   
   main {
     width: 90%;
